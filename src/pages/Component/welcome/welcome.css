@@ -1,0 +1,71 @@
+ .wel_wrap {
+    display: flex;
+    /* height: 62em; */
+    padding: 9em 4em 0 4em;
+    justify-content: space-around;
+    user-select: none;
+
+    
+ 
+
+}
+
+
+p.wel_txt1 {
+    /* padding: 0; */
+    color: white;
+    font-size: 6em;
+    margin: 0;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+p.wel_txt2 {
+    color: white;
+    font-size: 4em;
+    margin: 0;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+p.wel_txt3 {
+    font-size: 2em;
+    color: #2c2c2c;
+    width: 19em;
+    font-family: helvetica;
+}
+.wel_img_wrap {
+    overflow: hidden;
+    display: flex;
+    height: 38em;
+    filter:drop-shadow(6px 6px 6px snow)
+}
+
+/* button.download_btn:hover:before {
+    width: 17.6em;
+} */
+/* button.download_btn::before {
+    z-index: -1;
+    transition: all 1s;
+    position: absolute;
+    left: 110px;
+    border-radius: 5px;
+    background: #fb0267;
+    height: 3.2em;
+    width: 0em;
+    content: '';
+} */
+ button.download_btn:hover{
+    transition: all 1s;
+    background-color: rgb(251,3,103);
+} 
+button.download_btn {
+    color: white;
+    width: 18em;
+    border: 3px solid white;
+    background: none;
+    font-size: 1em;
+    font-family: helvetica;
+    border-radius: 9px;
+    margin-top: 2em;
+}

@@ -1,0 +1,57 @@
+header {
+    padding: 0 16px  0 15px;
+    left: 4%;
+    background: black;
+    display: flex;
+    position: fixed;
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 12px;
+    height: 4em;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    z-index: 10;
+}
+
+.Header_nav_cont {
+    display: flex;
+    align-items: center;
+}
+
+p.Header_name {
+    /* width: 131px; */
+    /* height: 38px; */
+    color: #fb0267;
+    font-family: helvetica;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+p.Header_nav {
+    color: white;
+    text-transform: capitalize;
+    margin: 0 39px 0 0;
+}
+
+.HireMe_btn {
+    height: 43px;
+    border-radius: 8px;
+    background: #fb0267;
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.Header_nav:hover {
+    color: #fb0267;
+}
+p.HireMe_btn_label {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.HireMe_btn:hover {
+    background: #ff5a9d;
+}

@@ -1,0 +1,61 @@
+.pro_Card {
+    background: white;
+    display: flex;
+    margin: 3em;
+    border-radius: 13px;
+    overflow: hidden;
+    align-items: center;
+    padding: 1em;
+    user-select: none;
+}
+
+.pro_img {
+    display: flex;
+    overflow: hidden;
+    height: 14em;
+    width: 70%;
+}
+
+p.pro_name {
+    margin: 0;
+    color: #f90266;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p.pro_tech {
+    margin: 4px 0px;
+    color: #8e8e8e;
+    font-weight: 600;
+}
+
+button.pro_btn:hover {
+    background: #f63483;
+    cursor: pointer;
+}
+
+p.pro_dics {
+    color: #a3a3a3;
+    margin: 0;
+    height: 6em;
+    font-weight: 300;
+}
+
+button.pro_btn {
+    height: 1.4em;
+    display: flex;
+    color: white;
+    margin: -15px 0px;
+    background: #f90266;
+    border: none;
+    font-size: 1.2em;
+    font-family: helvetica;
+    border-radius: 6px;
+    padding: 9px;
+    width: 5em;
+    position: relative;
+    right: -78%;
+    align-items: center;
+    justify-content: center;
+}
